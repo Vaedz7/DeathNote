@@ -20,7 +20,9 @@ Version 2.0.0
 Runtime Details
 -
 1: Virus changes all .py files to virus' code
+
 2: All files are automatically run
+
 3: Viruses create infinite files until stopped
 
 *DO NOT use this virus for anything other than experimental purposes*
