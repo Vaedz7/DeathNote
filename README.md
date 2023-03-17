@@ -1,5 +1,5 @@
 # DeathNote
-A python based virus that slowly devours RAM and storage. **Does not include automatic startup for safety purposes**
+A python based virus that slowly devours RAM and storage. Executable files for v2.0.0 are currently unsupported. v1.2.0 executable files do not function properly so it is advised not to use them. **Does not include automatic startup for safety purposes**
 
 # DISCLAIMER
 This virus is for experimental purposes and is NOT intended to be used on a vulnerable system.
@@ -26,3 +26,5 @@ Runtime Details
 3: Viruses create infinite files until stopped
 
 *DO NOT use this virus for anything other than experimental purposes*
+
+*This is a new DeathNote repository. The preious one has been privated as the code no longer functions. It is advised to use the new code for any future runs*
