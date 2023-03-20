@@ -6,7 +6,7 @@ This virus is for experimental purposes and is NOT intended to be used on a vuln
 
 Details
 -
-- Current Version: v2.1.0
+- Current Version: v2.1.1
 - Risk: Unrecognized by most software
 - Effects: File content loss
 - File Size: ~50 lines
