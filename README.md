@@ -6,10 +6,16 @@ This virus is for experimental purposes and is NOT intended to be used on a vuln
 
 Details
 -
-- Current Version: v2.0.0
+- Current Version: v2.1.0
 - Risk: Unrecognized by most software
 - Effects: File content loss
-- File Size: ~30 lines (800 Bytes)
+- File Size: ~50 lines
+
+Version 2.1.0
+-
+- Adds new complicated directories to hide created files
+- Creates larger files at a slightly slower rate (Increased storage consumption per run)
+- Shorter code distribution than v2.0.0
 
 Version 2.0.0
 -
@@ -25,6 +31,6 @@ Runtime Details
 
 3: Viruses create infinite files until stopped
 
-*DO NOT use this virus for anything other than experimental purposes*
+***DO NOT use this virus for anything other than experimental purposes***
 
-*This is a new DeathNote repository. The preious one has been privated as the code no longer functions. It is advised to use the new code for any future runs*
+*This is a new DeathNote repository. The preious one has been privated as the code no longer functions and is detected as a virus link. It is advised to use the new code for any future runs*
